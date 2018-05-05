@@ -98,7 +98,7 @@
                     }
                 },
                 "postCommit": {
-                    "script": "./manage.py test"
+                    "script": "./manage.py migrate"
                 },
                 "source": {
                     "contextDir": "${CONTEXT_DIR}",
