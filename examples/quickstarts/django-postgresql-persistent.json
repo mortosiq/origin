@@ -98,7 +98,7 @@
                     }
                 },
                 "postCommit": {
-                    "script": "./manage.py migrate"
+                    "script": "./manage.py collectstatic --noinput"
                 },
                 "source": {
                     "contextDir": "${CONTEXT_DIR}",
