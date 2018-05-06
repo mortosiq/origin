@@ -458,7 +458,7 @@
             "displayName": "Volume Capacity",
             "name": "VOLUME_CAPACITY",
             "required": true,
-            "value": "512Mi"
+            "value": "1Gi"
         },
         {
             "description": "The URL of the repository with your application source code.",
