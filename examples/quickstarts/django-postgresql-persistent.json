@@ -97,9 +97,6 @@
                         "name": "${NAME}:latest"
                     }
                 },
-                "postCommit": {
-                    "script": "./manage.py collectstatic --noinput"
-                },
                 "source": {
                     "contextDir": "${CONTEXT_DIR}",
                     "git": {
@@ -461,7 +458,7 @@
             "displayName": "Volume Capacity",
             "name": "VOLUME_CAPACITY",
             "required": true,
-            "value": "1Gi"
+            "value": "512Mi"
         },
         {
             "description": "The URL of the repository with your application source code.",
